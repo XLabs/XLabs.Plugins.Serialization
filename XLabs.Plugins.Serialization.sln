@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLabs.Serialization", "src\XLabs.Serialization\XLabs.Serialization.csproj", "{6C5C17D3-E6E8-4201-B11F-7C50B02E8E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLabs.Serialization.Json.NET", "src\XLabs.Serialization.Json.NET\XLabs.Serialization.Json.NET.csproj", "{B1636D51-A05F-4957-93BC-CDCEB79C2E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLabs.Serialization.Net45", "src\XLabs.Serialization.Net45\XLabs.Serialization.Net45.csproj", "{C32010C6-5115-467A-9724-3B5AAD6DD7D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{B72EEDE5-6840-432A-A07E-AEBEA7DCDD98}"
+	ProjectSection(SolutionItems) = preProject
+		nuspec\XLabs.Serialization.JSON.nuspec = nuspec\XLabs.Serialization.JSON.nuspec
+		nuspec\XLabs.Serialization.Net45.nuspec = nuspec\XLabs.Serialization.Net45.nuspec
+		nuspec\XLabs.Serialization.nuspec = nuspec\XLabs.Serialization.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C5C17D3-E6E8-4201-B11F-7C50B02E8E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5C17D3-E6E8-4201-B11F-7C50B02E8E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5C17D3-E6E8-4201-B11F-7C50B02E8E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5C17D3-E6E8-4201-B11F-7C50B02E8E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1636D51-A05F-4957-93BC-CDCEB79C2E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1636D51-A05F-4957-93BC-CDCEB79C2E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1636D51-A05F-4957-93BC-CDCEB79C2E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1636D51-A05F-4957-93BC-CDCEB79C2E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32010C6-5115-467A-9724-3B5AAD6DD7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32010C6-5115-467A-9724-3B5AAD6DD7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32010C6-5115-467A-9724-3B5AAD6DD7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32010C6-5115-467A-9724-3B5AAD6DD7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
