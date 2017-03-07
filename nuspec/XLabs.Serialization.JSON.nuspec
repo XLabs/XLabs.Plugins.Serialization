@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>XLabs.Serialization.JSON</id>
-    <version>$version$<</version>
+    <version>$version$</version>
     <title>XLabs - Serialization - JSON</title>
     <authors>XLabs Team</authors>
     <owners>XLabs Team</owners>
